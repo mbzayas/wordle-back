@@ -1,0 +1,43 @@
+{
+  "middleware": {
+    "unknown": {
+      "_comment": "This is an error that is thrown by another function",
+      "code": 400,
+      "name": "errorUnknown",
+      "internal_code": 100,
+      "message": ""
+    },
+    "params_required": {
+      "_comment": "No params where found",
+      "code": 400,
+      "name": "errorEmptyParams",
+      "internal_code": 101,
+      "message": "Fields are required"
+    },
+    "user_required": {
+      "_comment": "Param userId was missing",
+      "code": 400,
+      "name": "errorEmptyUser",
+      "internal_code": 102,
+      "message": "The field 'userId' is required"
+    }    
+  },
+  "service": {
+    "unknown": {
+      "_comment": "This is an error that is thrown by another function",
+      "code": 400,
+      "name": "errorUnknown",
+      "internal_code": 200,
+      "message": ""
+    }
+  },
+  "generic": {
+    "unknown": {
+      "_comment": "This is an error that is thrown by another function",
+      "code": 400,
+      "name": "errorUnknown",
+      "internal_code": 200,
+      "message": ""
+    }
+  }
+}
